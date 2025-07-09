@@ -34,6 +34,7 @@ image-chatbot/
 ```
 
 ---
+
 ## ▶️ Running the App
 ```
 python app.py
@@ -42,12 +43,14 @@ Open your browser and visit:
 http://localhost:5005/
 
 ---
+
 ## ⚙️ Notes on torch & GPU
 For CUDA (GPU) support:
 ```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 Replace cu118 with your CUDA version (cu117, cu121, etc.).
+
 ---
 
 ## ✨ Sample Prompt
@@ -65,6 +68,7 @@ diffusers
 transformers
 accelerate
 safetensors
+
 ---
 
 ## 🧠 Model
@@ -75,6 +79,7 @@ Make sure to accept license and download it locally if needed.
 
 ## 📝 License
 MIT License
+
 ---
 
 ##✨ **Author**: Made by Jasleen Kaur Matharoo  
