@@ -64,7 +64,7 @@ Replace cu118 with your CUDA version (cu117, cu121, etc.).
 
 ---
 
-🚀 **Tech Stack**
+## 🚀 Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript (Vanilla)
 - **Backend**: Python, Flask, Flask-CORS
@@ -73,7 +73,7 @@ Replace cu118 with your CUDA version (cu117, cu121, etc.).
 
 ---
 
-📌 **Dependencies**
+## 📌 Dependencies
 - `flask`
 - `flask-cors`
 - `torch`
