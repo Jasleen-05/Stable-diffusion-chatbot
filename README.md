@@ -60,6 +60,7 @@ Replace cu118 with your CUDA version (cu117, cu121, etc.).
 "A futuristic cityscape at night in neon colors, anime style"
 
 🔽 Generates:
+![image](https://github.com/user-attachments/assets/3b3b7381-b314-42ef-bd46-209c17bc8674)
 
 
 ---
