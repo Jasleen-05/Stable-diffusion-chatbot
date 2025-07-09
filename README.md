@@ -86,6 +86,6 @@ MIT License
 
 ---
 
-##✨ **Author**: Made by Jasleen Kaur Matharoo  
+✨ **Author**: Made by Jasleen Kaur Matharoo  
 📧 Email: [jasleen.matharoo@s.amity.edu](mailto:jasleen.matharoo@s.amity.edu)  
 🌐 GitHub: [@Jasleen-05](https://github.com/Jasleen-05)
