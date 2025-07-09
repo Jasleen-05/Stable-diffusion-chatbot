@@ -48,6 +48,7 @@ For CUDA (GPU) support:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 Replace cu118 with your CUDA version (cu117, cu121, etc.).
+---
 
 ## ✨ Sample Prompt
 "A futuristic cityscape at night in neon colors, anime style"
@@ -55,6 +56,7 @@ Replace cu118 with your CUDA version (cu117, cu121, etc.).
 🔽 Generates:
 
 
+---
 ## 📌 Dependencies
 flask
 flask-cors
@@ -63,14 +65,17 @@ diffusers
 transformers
 accelerate
 safetensors
+---
 
 ## 🧠 Model
 Default model: CompVis/stable-diffusion-v1-4
 
 Make sure to accept license and download it locally if needed.
+---
 
 ## 📝 License
 MIT License
+---
 
 ##✨ **Author**: Made by Jasleen Kaur Matharoo  
 📧 Email: [jasleen.matharoo@s.amity.edu](mailto:jasleen.matharoo@s.amity.edu)  
