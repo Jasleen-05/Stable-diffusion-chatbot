@@ -34,6 +34,7 @@ image-chatbot/
 │   └── index.html
 ├── static/
 │   └── styles.css
+│   └── script.js
 ├── requirements.txt
 └── README.md
 ```
