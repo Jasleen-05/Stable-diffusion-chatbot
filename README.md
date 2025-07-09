@@ -63,14 +63,25 @@ Replace cu118 with your CUDA version (cu117, cu121, etc.).
 
 
 ---
-## 📌 Dependencies
-flask
-flask-cors
-torch
-diffusers
-transformers
-accelerate
-safetensors
+
+🚀 **Tech Stack**
+
+- **Frontend**: HTML, CSS, JavaScript (Vanilla)
+- **Backend**: Python, Flask, Flask-CORS
+- **AI Model**: Stable Diffusion (via 🤗 Hugging Face `diffusers`)
+- **Frameworks & Libraries**: PyTorch, Transformers, Diffusers, Accelerate
+
+---
+
+📌 **Dependencies**
+- `flask`
+- `flask-cors`
+- `torch`
+- `diffusers`
+- `transformers`
+- `accelerate`
+- `safetensors`
+
 
 ---
 
