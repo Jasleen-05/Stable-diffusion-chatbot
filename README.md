@@ -27,6 +27,8 @@ pip install -r requirements.txt
 
 ```
 image-chatbot/
+├── output/
+│   └── stores output of images created till now
 ├── app.py
 ├── templates/
 │   └── index.html
