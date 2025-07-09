@@ -20,6 +20,9 @@ Install dependencies via `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
 ## 🛠️ Folder Structure
 
 ```
@@ -75,6 +78,7 @@ safetensors
 Default model: CompVis/stable-diffusion-v1-4
 
 Make sure to accept license and download it locally if needed.
+
 ---
 
 ## 📝 License
