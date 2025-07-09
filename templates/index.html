@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>SDXL Image Generator</title>
-  <style>
-    body { font-family: Arial; background: #f4f4f4; text-align: center; padding: 50px; }
-    input[type="text"] { width: 60%; padding: 10px; font-size: 16px; }
-    button { padding: 10px 20px; font-size: 16px; }
-    img { max-width: 80%; margin-top: 20px; border: 1px solid #ccc; }
-  </style>
+  <meta charset="UTF-8" />
+  <title>🎨 SDXL Image Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <h2>🎨 Stable Diffusion XL Image Generator</h2>
-  <form method="POST" action="/generate" enctype="multipart/form-data">
-    <input type="text" name="prompt" placeholder="Enter prompt..." required />
-    <button type="submit">Generate</button>
-  </form>
+  <div class="background-blur"></div>
+
+  <div class="container glass fade-in">
+    <h2 class="glow-text">🎨 Stable Diffusion XL Image Generator</h2>
+
+    <form method="POST" action="/generate" enctype="multipart/form-data">
+      <input type="text" name="prompt" placeholder="Enter prompt..." required />
+      <button type="submit">Generate</button>
+    </form>
+
+    <!-- Spinner -->
+    <div id="spinner" class="spinner hidden"></div>
+
+    <!-- Image Preview -->
+    {% if image_url %}
+    <div class="image-wrapper fade-in">
+      <img id="generated-image" src="{{ image_url }}" alt="Generated Image" />
+    </div>
+    {% endif %}
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
