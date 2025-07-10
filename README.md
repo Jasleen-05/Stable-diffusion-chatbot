@@ -10,6 +10,7 @@ This project is a Flask-based chatbot that generates images from user prompts us
 - 🧠 Local inference using `diffusers` and `transformers`.
 - 🎯 Web-based frontend with HTML, CSS, and JS.
 - 🔥 CUDA/GPU acceleration supported.
+- Model Used: [Stable Diffusion v1.4](https://huggingface.co/CompVis/stable-diffusion-v1-4)
 
 ---
 
